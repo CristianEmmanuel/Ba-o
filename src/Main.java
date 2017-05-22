@@ -4,5 +4,8 @@ public class Main {
 
         Pileta pileta = new Pileta();
         pileta.perderAgua(true);
+        Espejo espejo = new Espejo();
+        espejo.reflejo(false);
+        espejo.gel(true);
     }
 }
